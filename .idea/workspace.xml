@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17cfc8c3-3a5b-4b56-a9bf-349129762bda" name="Changes" comment="ES2 completo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Es1/Chiamata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es2/Chiamata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Es2/SIM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es2/SIM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ES3/Articolo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ES3/Carrello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ES3/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ES3/Epizon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701274781509</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ES2 completo">
+      <option name="closed" value="true" />
+      <created>1701279400092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701279400092</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

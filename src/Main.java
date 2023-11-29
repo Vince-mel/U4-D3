@@ -1,3 +1,5 @@
+import ES3.Articolo;
+import ES3.Epizon;
 import Es1.Rettangolo;
 import Es2.SIM;
 
@@ -22,6 +24,8 @@ public class Main {
         stampaDueRettangoli(r1, r2);
         SIM sim1 = new SIM(3938883,"8 minuti","324423342");
         System.out.println(sim1);
+        Epizon data1 = new Epizon(234234,"cover cellulare",23,10,234234,"Bastiano Urpi","bastianu@urpi.it","Iscritto il 10/02/2010","Bastianu Urpi",4,1000);
+        System.out.println(data1);
 
     }
 }
