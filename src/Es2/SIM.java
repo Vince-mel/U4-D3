@@ -1,16 +1,22 @@
 package Es2;
 
 
+import Es1.Chiamata;
+
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class SIM {
     //ATTRIBUTI
     private  int numero_di_telefono;
    private  int credito_disponibile;
+   private Queue<Chiamata> chiamate;
 
 
    public SIM (int numero_di_telefono){
        this.numero_di_telefono=numero_di_telefono;
        this.credito_disponibile= 0;
+       this.chiamate= new LinkedList<>();
 
    }
 
@@ -31,7 +37,7 @@ public class SIM {
     }
 
     public void StampaDatiSim(){
-       System.out.println("numero di telefono : "+numero_di_telefono+ " Credito residuo : "+credito_disponibile);
+       System.out.println("numero di telefono : "+numero_di_telefono+ " Credito residuo : "+credito_disponibile+" chiamate effettuate: "+chiamate);
 
    }
 

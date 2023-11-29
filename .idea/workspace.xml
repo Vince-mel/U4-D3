@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17cfc8c3-3a5b-4b56-a9bf-349129762bda" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Es2/SIM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="17cfc8c3-3a5b-4b56-a9bf-349129762bda" name="Changes" comment="ES2">
+      <change afterPath="$PROJECT_DIR$/src/Es1/Chiamata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Es2/SIM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Es2/SIM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +80,19 @@
       <option name="presentableId" value="Default" />
       <updated>1701265981275</updated>
     </task>
+    <task id="LOCAL-00001" summary="ES2">
+      <option name="closed" value="true" />
+      <created>1701273989443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701273989443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ES2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ES2" />
   </component>
 </project>
