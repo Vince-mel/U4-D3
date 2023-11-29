@@ -15,4 +15,14 @@ public class Articolo {
 
     public void add(Articolo articolo) {
     }
+
+    @Override
+    public String toString() {
+        return "Articolo{" +
+                "codice_articolo=" + codice_articolo +
+                ", descrizione_articolo='" + descrizione_articolo + '\'' +
+                ", prezzo=" + prezzo +
+                ", pezzi_disponibili=" + pezzi_disponibili +
+                '}';
+    }
 }
