@@ -1,22 +1,17 @@
 package Es2;
 
 
-import Es1.Chiamata;
-
-import java.util.LinkedList;
-import java.util.Queue;
-
 public class SIM {
     //ATTRIBUTI
     private  int numero_di_telefono;
    private  int credito_disponibile;
-   private Queue<Chiamata> chiamate;
+   private  Chiamata chiamate;
 
 
-   public SIM (int numero_di_telefono){
+   public SIM (int numero_di_telefono,String durata, String numeroChiamato){
        this.numero_di_telefono=numero_di_telefono;
        this.credito_disponibile= 0;
-       this.chiamate= new LinkedList<>();
+       this.chiamate= new Chiamata(durata,numeroChiamato);
 
    }
 
@@ -36,11 +31,19 @@ public class SIM {
         this.credito_disponibile = credito_disponibile;
     }
 
-    public void StampaDatiSim(){
-       System.out.println("numero di telefono : "+numero_di_telefono+ " Credito residuo : "+credito_disponibile+" chiamate effettuate: "+chiamate);
 
-   }
+    public void StampaDatiSim(String durata, String numeroChiamato){
+      System.out.println("numero di telefono : "+numero_di_telefono);
+      System.out.println(" Credito residuo : "+credito_disponibile);
+      System.out.println("chiamate effettuate: " + chiamate);
 
 
+    }
 
+    @Override
+    public String toString() {
+        return "SIM{" +
+                "chiamate=" + chiamate +
+                '}';
+    }
 }
