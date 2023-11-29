@@ -1,4 +1,5 @@
 import Es1.Rettangolo;
+import Es2.SIM;
 
 public class Main {
 
@@ -18,6 +19,8 @@ public class Main {
         Rettangolo r1 = new Rettangolo(5, 10);
         Rettangolo r2 = new Rettangolo(3, 6);
         stampaDueRettangoli(r1, r2);
+        SIM sim1 = new SIM(3938883);
+        sim1.StampaDatiSim();
     }
 }
 
